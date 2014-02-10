@@ -12,6 +12,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -21,7 +22,7 @@ import android.widget.TextView;
  *
  * @see SystemUiHider
  */
-public class BartalkActivity extends Activity {
+public class BartalkActivity extends BaseActivity {
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
